@@ -51,21 +51,21 @@ yarn start
 
 # Checkpoint 1: ⛽️ Gas & Wallets 👛
 
-> ⛽️ You'll need to get some funds from the faucet for gas.
+> ⛽️ 你需要从水龙头那里弄点 Gas。
 
 ![image](https://user-images.githubusercontent.com/2653167/142483294-ff4c305c-0f5e-4099-8c7d-11c142cb688c.png)
 
-> 🦊 At first, please **don't** connect MetaMask. If you already connected, please click **logout**:
+> 🦊 首先, 请 **不要** 连接 MetaMask. 如果你已经连接了 MetaMask,请点击 **logout**:
 
 ![image](https://user-images.githubusercontent.com/2653167/142484483-1439d925-8cef-4b1a-a4b2-0f022eebc0f6.png)
 
-> 🔥 We'll use **burner wallets** on localhost...
+> 🔥 我们在本地使用 **burner wallets**
 
-> 👛 Explore how **burner wallets** work in 🏗 scaffold-eth by opening a new _incognito_ window and navigate it to http://localhost:3000. You'll notice it has a new wallet address in the top right. Copy the incognito browsers' address and send localhost test funds to it from your first browser:
+> 👛 **burner wallets**在本地是如何工作的 🏗 打开一个新的匿名窗口并导航到 http://localhost:3000.你会注意到它在右上角有一个新的钱包地址。复制匿名浏览器的地址，并从第一个浏览器向其发送测试资金：
 
 ![image](https://user-images.githubusercontent.com/2653167/142483685-d5c6a153-da93-47fa-8caa-a425edba10c8.png)
 
-> 👨🏻‍🚒 When you close the incognito window, the account is gone forever. Burner wallets are great for local development but you'll move to more permanent wallets when you interact with public networks.
+> 👨🏻‍🚒 当你关闭“匿名”窗口时，帐户将永远消失。Burner 钱包对当地的发展很有帮助，但当你与公共网络互动时，你会转移到更持久的钱包。
 
 ---
 
@@ -85,7 +85,7 @@ yarn start
 
 👛 Try to mint an NFT from the incognito window.
 
-> Can you mint an NFT with no funds in this address? You might need to grab funds from the fauct to pay the gas!
+> 你能在这个地址没有资金的情况下造出 NFT 吗？你可能需要从水龙头获取 Gas 支付手续费！
 
 🕵🏻‍♂️ Inspect the `Debug Contracts` tab to figure out what address is the `owner` of `YourCollectible`?
 

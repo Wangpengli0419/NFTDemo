@@ -23,6 +23,7 @@ export const MainPageMenu: FC<IMainPageMenuProps> = (props) => (
         YourCollectible
       </Link>
     </Menu.Item>
+    {/**
     <Menu.Item key="/debugcontract">
       <Link
         onClick={() => {
@@ -68,5 +69,6 @@ export const MainPageMenu: FC<IMainPageMenuProps> = (props) => (
         Subgraph
       </Link>
     </Menu.Item>
+     */}
   </Menu>
 );
